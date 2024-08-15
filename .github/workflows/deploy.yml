@@ -28,7 +28,7 @@ jobs:
       run: ng test --watch=false --browsers=ChromeHeadless
 
     - name: Build the app
-      run: ng build --prod --base-href "*TODO*"
+      run: ng build --prod --base-href "https://matheusbarcc.github.io/actions/"
 
 deploy:
   runs-on: ubuntu-latest
